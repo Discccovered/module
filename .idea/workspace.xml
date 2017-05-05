@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4526c8ca-85bb-4792-b3b4-a5c9264e3bef" name="Default" comment="更改">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/首页.jpg" />
+    <list default="true" id="4526c8ca-85bb-4792-b3b4-a5c9264e3bef" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="362" column="0" lean-forward="false" selection-start-line="362" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
+            <state relative-caret-position="6422">
+              <caret line="338" column="33" lean-forward="true" selection-start-line="338" selection-start-column="33" selection-end-line="338" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -225,12 +224,20 @@
       <updated>1493883970285</updated>
       <workItem from="1493883971755" duration="2585000" />
       <workItem from="1493889070114" duration="155000" />
-      <workItem from="1493945897609" duration="3742000" />
+      <workItem from="1493945897609" duration="4318000" />
     </task>
+    <task id="LOCAL-00001" summary="更改">
+      <created>1493963687804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1493963687804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6482000" />
+    <option name="totallyTimeSpent" value="7058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -301,15 +308,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main-default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1463">
+          <caret line="207" column="0" lean-forward="true" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="362" column="0" lean-forward="false" selection-start-line="362" selection-start-column="0" selection-end-line="363" selection-end-column="0" />
+        <state relative-caret-position="6422">
+          <caret line="338" column="33" lean-forward="true" selection-start-line="338" selection-start-column="33" selection-end-line="338" selection-end-column="33" />
           <folding />
         </state>
       </provider>
