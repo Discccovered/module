@@ -160,7 +160,7 @@
 </header>
 <div class="j-menu-container"></div>
 
-<<!--div class="b-inner-page-header f-inner-page-header b-bg-header-inner-page">
+<!--div class="b-inner-page-header f-inner-page-header b-bg-header-inner-page">
   <div class="b-inner-page-header__content">
     <div class="container">
       <h1 class="f-primary-l c-default">Blog Listing Left Sidebar</h1>
@@ -169,7 +169,7 @@
 </div>-->
 <div class="l-main-container">
 
-    <div class="b-breadcrumbs f-breadcrumbs">
+    <!-- <div class="b-breadcrumbs f-breadcrumbs">
         <div class="container">
             <ul>
                 <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
@@ -177,13 +177,13 @@
                 <li><i class="fa fa-angle-right"></i><span>Listing Left Sidebar</span></li>
             </ul>
         </div>
-    </div>
+    </div> -->
 
     <div class="l-inner-page-container">
         <div class="container">
             <div class="row">
-                <div class="col-md-9 col-md-push-3">
-                    <div class="b-blog-listing__block">
+                <div class="col-md-9 col-md-push-3" id="right_page">
+                   <!--  <div class="b-blog-listing__block">
                         <div class="b-blog-listing__block-top">
                             <div class=" view view-sixth">
     <img data-retina="" src="img/blog/blog_listing.jpg" alt="">
@@ -213,8 +213,8 @@
                     </div>
                     <div class="b-blog-listing__block">
                         <div class="b-video-player b-blog-listing__block-top">
-<!--                             <iframe src="http://player.vimeo.com/video/81801013?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="870" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
- -->                        </div>
+                            <iframe src="http://player.vimeo.com/video/81801013?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="870" height="460" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
                         <div class="b-infoblock-with-icon b-blog-listing__infoblock">
                             <a href="#" class="b-infoblock-with-icon__icon f-infoblock-with-icon__icon fade-in-animate hidden-xs">
                                 <i class="fa fa-video-camera"></i>
@@ -238,7 +238,7 @@
                     </div>
 
                     <div class="b-pagination f-pagination">
-  <!--   <ul>
+    <ul>
         <li><a href="#">First</a></li>
         <li><a class="prev" href="#"><i class="fa fa-angle-left"></i></a></li>
         <li class="is-active-pagination"><a href="#">1</a></li>
@@ -246,8 +246,8 @@
         <li><a href="#">3</a></li>
         <li><a class="next" href="#"><i class="fa fa-angle-right"></i></a></li>
         <li><a href="#">Last</a></li>
-    </ul> -->
-</div>
+    </ul>
+</div> -->
                 </div>
                 <div class="visible-xs-block visible-sm-block b-hr"></div>
                 <div class="col-md-3 col-md-pull-9">
