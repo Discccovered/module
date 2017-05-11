@@ -140,8 +140,8 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li><button type="button" class="btn btn-link  navbar-btn" id="register" onclick="showModal()">注册</button></li>
-                        <li><button type="button" class="btn btn-link  navbar-btn" id="register" onclick="showModal()">登录</button></li>
+                        <li><button type="button" class="btn btn-link  navbar-btn" id="register" >注册</button></li>
+                        <li><button type="button" class="btn btn-link  navbar-btn" id="login" >登录</button></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -561,37 +561,32 @@
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal"
 						aria-hidden="true">&times;</button>
-					<h3 class="modal-title" id="myModalLabel">注册企业信息</h3>
+					<h3 class="modal-title" id="myModalLabel">注册账号信息</h3>
 				</div>
 				<div class="modal-body">
-					<div>
-						<label for="id">企业编号：</label><span id="id">12345678</span>
+
+				<form action="" method="post" enctype="multipart/form-data">
+					<!-- <div>
+						<label for="id">用户编号:：</label><span id="id">12345678</span>
+					</div> -->
+					<div style="margin-top:20px;">
+						<label for="name">用户名称：</label><input type="text" id="name" />
 					</div>
 					<div style="margin-top:20px;">
-						<label for="name">企业名称：</label><input type="text" id="name" /><label
-							for="type" class="col-md-offset-1">企业类型：</label><select
-							 id="type" ></select>
+						<label class="radio-inline"> <input type="radio" name="type" id="inlineRadio1" value="1"> 医生</label>
+						<label class="radio-inline"> <input type="radio" name="type" id="inlineRadio2" value="2">养生爱好者</label>
 					</div>
 					<div style="margin-top:20px;">
-						<label for="corporation">企业法人：</label><input type="text"
-							id="corporation" /><label for="tel" class="col-md-offset-1">联系电话：</label><input
-							type="text" id="tel" />
+						<label for="password">登录密码：</label><input type="password"	id="password" placeholder="请输入密码" />
 					</div>
 					<div style="margin-top:20px;">
-						<label for="captial">注册资金：</label><input type="text" id="captial" /><label
-							for="time" class="col-md-offset-1">成立时间：</label><input
-							type="text" id="time" />
+						<label for="repassword" class="pull-left">确认密码：</label><input type="password"	id="repassword" placeholder="请输入密码" />
 					</div>
 					<div style="margin-top:20px;">
-						<label>经营地址：</label><select id="city"><option>--选型一--</option>
-						</select><select id="area" style="margin:0 10px;"><option>--第一项--</option>
-						</select><input type="text" value="朝阳中路瑞鑫大厦办公602" />
-					</div>
-					<div style="margin-top:20px;">
-						<label for="scope" class="pull-left">经营范围：</label>
-						<textarea id="scope" rows="6" class="col-md-10" ></textarea>
+						<label for="certify" class="pull-left">证书上传：</label><input type="file"	id="certify" placeholder="请输入密码" />
 					</div>
 					<div class="clearfix"></div>
+				</form>
 				</div>
 				<div class="modal-footer center-block">
 					<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
@@ -603,6 +598,54 @@
 		<!-- /.modal -->
 
 </div>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"
+						aria-hidden="true">&times;</button>
+					<h3 class="modal-title" id="myModalLabel">注册账号信息</h3>
+				</div>
+				<div class="modal-body">
+				<div class="form row">
+            <form class="form-horizontal col-sm-offset-3 col-md-offset-3" id="login_form">
+                <h3 class="form-title">Login to your account</h3>
+                <div class="col-sm-9 col-md-9">
+                    <div class="form-group">
+                        <i class="fa fa-user fa-lg"></i>
+                        <input class="form-control required" type="text" placeholder="Username" name="username" autofocus="autofocus" maxlength="20"/>
+                    </div>
+                    <div class="form-group">
+                            <i class="fa fa-lock fa-lg"></i>
+                            <input class="form-control required" type="password" placeholder="Password" name="password" maxlength="8"/>
+                    </div>
+                    <div class="form-group">
+                        <label class="checkbox">
+                            <input type="checkbox" name="remember" value="1"/> Remember me
+                        </label>
+                        <hr />
+                        <a href="javascript:;" id="register_btn" class="">Create an account</a>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success pull-right" value="Login "/>
+                    </div>
+                </div>
+            </form>
+				</div>
+				<div class="modal-footer center-block">
+					<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+					<button type="button" class="btn btn-primary">确定</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		</div>
+		<!-- /.modal -->
+
+</div>
+
 </body>
 
 
