@@ -10,6 +10,7 @@ $(function(){
         $("#myModal").modal("show");
     })
     $("#right_page").load("shouye.jsp");
+    $('body').prop({'scrollTop':'0'},1000);
 })
 
 function showModal(){
